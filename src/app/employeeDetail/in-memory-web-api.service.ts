@@ -8,21 +8,21 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const employees = [{
       id: 1,
-      fname: 'Jhon',
+      fname: 'Jhonie',
       phone: '9999999999',
-      lname: 'Kha',
+      lname: 'Khann',
       status: 'Active'
       }, {
       id: 2,
-      fname: 'Jacob',
-      phone: 'AZ99A99PQ9',
-      lname: 'kum',
+      fname: 'Jacobie',
+      phone: '9090909090',
+      lname: 'kummm',
       status: 'Inactive'
       }, {
       id: 3,
-      fname: 'Ari',
-      phone: '145458522',
-      lname: 'Yum',
+      fname: 'Ariess',
+      phone: '1454585222',
+      lname: 'Yummm',
       status: 'Inactive'
       }
     ];
