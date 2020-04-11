@@ -21,10 +21,9 @@
           Mobile Number is required.
         </div>
     <label class ="labelClass" for="name"> status:</label>
-    <select name="status" class="selectStatus" style="width: 90%;height: 34px;" [(ngModel)]="addEmployee.status" >
+    <select name="status" class="selectStatus" style="" [(ngModel)]="addEmployee.status" >
       <option *ngFor = "let status of statusList" >{{status}}</option>
       </select>
-    <label class ="labelClass" for="Phone">address 1:</label>
     <div class= "submitClass">
       <input type="button" type="submit" (click)="formSubmit()" value="Send data to Edit!" id="form-submit" routerLink="/employees">
     </div>
